@@ -1,0 +1,25 @@
+# python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+.venv/
+.env
+
+# data / outputs (big)
+ckpt*/
+ckpt_grouped_full/
+infer_vis/
+infer_vis_ddp/
+*.jsonl
+*.npy
+*.npz
+
+# logs
+*.log
+wandb/
+runs/
